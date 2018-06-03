@@ -1,8 +1,8 @@
 {
-    "coin": "ducknote",
-    "symbol": "XDN",
-    "coinUnits": 100000000,
-    "coinDifficultyTarget": 240,
+    "coin": "typhon",
+    "symbol": "TPN",
+    "coinUnits": 500000000,
+    "coinDifficultyTarget": 80,
 
     "logging": {
         "files": {
@@ -19,7 +19,7 @@
     "poolServer": {
         "enabled": true,
         "clusterForks": "auto",
-        "poolAddress": "ddehi53dwGSBEXdhTYtga2R3fS4y9hRz4YHAsLABJpH75yUd5EDQmuL3yDBj1mG6MMeDfydY9vp4zFVVNQ99FTYq2PpsFJP2y",
+        "poolAddress": "9Kd62DRj8ZCTHGwRkLN8NpAxsVYnyJr2m9B9ioJ2xU4dX9e5SyVJyZK2k6kx3Lsd8F2PFxTrfR1uBBNENzSeFJsP76uJNFf",
         "blockRefreshInterval": 1000,
         "minerTimeout": 900,
         "ports": [
@@ -30,24 +30,24 @@
             },
             {
                 "port": 5555,
-                "difficulty": 2000,
+                "difficulty": 200,
                 "desc": "Mid range hardware"
             },
             {
                 "port": 7777,
-                "difficulty": 10000,
+                "difficulty": 300,
                 "desc": "High end hardware"
             },
             {
                 "port": 8888,
-                "difficulty": 10000,
+                "difficulty": 400,
                 "desc": "Hidden port",
                 "hidden": true
             }
         ],
         "varDiff": {
             "minDiff": 100,
-            "maxDiff": 200000,
+            "maxDiff": 5000,
             "targetTime": 100,
             "retargetTime": 30,
             "variancePercent": 30,
@@ -85,7 +85,7 @@
 
     "blockUnlocker": {
         "enabled": true,
-        "interval": 30,
+        "interval": 60,
         "depth": 10,
         "poolFee": 2,
         "devDonation": 0.1,
@@ -104,13 +104,13 @@
     },
 
     "daemon": {
-        "host": "127.0.0.1",
-        "port": 42081
+        "host": "95.179.139.27",
+        "port": 30030
     },
 
     "wallet": {
-        "host": "127.0.0.1",
-        "port": 8082
+        "host": "80.240.16.11",
+        "port": 31030
     },
 
     "redis": {
