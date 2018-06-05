@@ -133,7 +133,7 @@
         "pool": {
             "hashrate": {
                 "enabled": true,
-                "updateInterval": 60,
+                "updateInterval": 20,
                 "stepInterval": 1800,
                 "maximumPeriod": 86400
             },
