@@ -1,7 +1,7 @@
 {
     "coin": "typhon",
     "symbol": "TPN",
-    "coinUnits": 500000000,
+    "coinUnits": 100000000,
     "coinDifficultyTarget": 80,
 
     "logging": {
